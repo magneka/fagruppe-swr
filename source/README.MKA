@@ -1,0 +1,4 @@
+JSON server trenger -h option for å nås utenfor docker containeren
+
+npm install -g json-server
+json-server --watch --port=5001 -H 0.0.0.0 --delay=1000 db2.json
